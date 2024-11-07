@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assigment-03</title>
+  <!-- google font start -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <!-- google font end -->
+  <!-- font awesome cdn start -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- font awesome cdn end -->
+  <!-- tailwindcss and daisyUI start -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- tailwindcss and daisyUI end -->
+  <!-- script start -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <!-- script end -->
+  <style>
+    .banner-img img {
+      justify-items: baseline;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="w-11/12 mx-auto">
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+
+          </div>
+
+        </div>
+        <a class="text-xl btn btn-ghost">
+          <div class="flex gap-2">
+            <div>
+              <i class="p-2 bg-green-500 border fa-solid fa-arrow-right rounded-2xl "></i>
+            </div>
+            <div>
+              <h1 class="text-3xl font-bold"> Rinterio</h1>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="hidden navbar-center lg:flex">
+        <ul class="px-1 text-lg font-medium menu menu-horizontal">
+          <li class="transition-colors duration-300 translate-x-4 hover:text-teal-400 "><a>Home</a></li>
+          <li class="transition-colors duration-300 translate-x-4 hover:text-teal-400 "><a> About</a></li>
+
+          <li class="transition-colors duration-300 translate-x-4 hover:text-teal-400 "><a>Everythink</a></li>
+          <li class="transition-colors duration-300 translate-x-4 hover:text-teal-400 "><a>Groceriets</a> </li>
+          <li class="transition-colors duration-300 translate-x-4 hover:text-teal-400 "><a>Contact</a> </li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <div class="flex items-center gap-5 text-xl">
+          <button class="flex items-center p-2 font-semibold text-center border rounded-xl bg-slate-300 ">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <button class="flex items-center p-2 font-semibold text-center border rounded-xl bg-slate-300 ">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+        </div>
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+
+          </div>
+
+          <button class="p-3 text-2xl font-bold bg-green-600 border rounded-xl">
+            Book Consult
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+    <div>
+      <div class="max-w-2xl mx-auto mt-10">
+        <img class="" src="./imgaes/assets/banner.png" alt="">
+      </div>
+      <div class="w-full text-center">
+        <h1 class="mb-2 font-bold md:text-5xl lg:text-7xl">A barn house of this design has a <br> striking appearance
+        </h1>
+        <p class="pt-4 md:text-2xl">The barn house captivates with its blend of rustic charm and modern sophistication,
+          featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.
+        </p>
+        <div class="pt-5">
+          <button class="p-3 text-2xl font-bold bg-green-200 border rounded-xl">
+            View Details
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- banner -->
+  <main class="w-11/12 mx-auto">
+
+    <!-- our works section start -->
+     <section>
+      <div class="w-full p-10 text-center">
+        <button class="p-2 text-2xl bg-green-200 border rounded-xl">
+          View Details
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+        <h1 class="mb-2 font-bold md:text-5xl lg:text-5xl">Our Works Process</h1>
+        <p class="pt-4 md:text-2xl">The barn house captivates with its blend of rustic charm and modern sophistication,
+          <br> featuring weathered wood, sleek metal accents.</p>
+        <div class="pt-5">
+
+        </div>
+      </div>
+     </section>
+    <!-- our works section end -->
+    <!-- Read Our section start -->
+    <section class="p-10">
+      <div class="w-full p-10 text-center">
+        <button class="p-2 text-2xl bg-green-200 border rounded-xl">
+          View Details
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+        <h1 class="mb-2 font-bold md:text-5xl lg:text-5xl">Read Our Articles and News</h1>
+        <p class="pt-4 md:text-2xl">The barn house captivates with its blend of rustic charm and modern sophistication,
+          <br> featuring weathered wood, sleek metal accents.</p>
+        <div class="pt-5">
+
+        </div>
+      </div>
+      <div class="grid w-11/12 mx-auto md:grid-cols-2 lg:grid-cols-3 ">
+        <div class="shadow-xl card bg-base-100 w-96">
+          <figure>
+            <img src="./imgaes/assets/article1.png" />
+          </figure>
+          <div class="card-body">
+            <div>
+              <span><i class="fa-solid fa-calendar-days"></i> July14, 2024</span>
+              <span class="ml-3"><i class="fa-regular fa-user"></i>By Admin</span>
+
+            </div>
+
+            <h2 class="card-title">How to choose the furni <br> right your home.</h2>
+            <p>The barn house captivates with its blend o rustic charm and modern. </p>
+            <div class=" card-actions">
+              <button class="btn ">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-xl card bg-base-100 w-96">
+          <figure>
+            <img src="./imgaes/assets/article2.png" />
+          </figure>
+          <div class="card-body">
+            <div>
+              <span><i class="fa-solid fa-calendar-days"></i> July14, 2024</span>
+              <span class="ml-3"><i class="fa-regular fa-user"></i>By Admin</span>
+
+            </div>
+
+            <h2 class="card-title">How to choose the furni <br> right your home.</h2>
+            <p>The barn house captivates with its blend o rustic charm and modern. </p>
+            <div class=" card-actions">
+              <button class="btn ">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-xl card bg-base-100 w-96">
+          <figure>
+            <img src="./imgaes/assets/article3.png" />
+          </figure>
+          <div class="card-body">
+            <div>
+              <span><i class="fa-solid fa-calendar-days"></i> July14, 2024</span>
+              <span class="ml-3"><i class="fa-regular fa-user"></i>By Admin</span>
+
+            </div>
+
+            <h2 class="card-title">How to choose the furni <br> right your home.</h2>
+            <p>The barn house captivates with its blend o rustic charm and modern. </p>
+            <div class=" card-actions">
+              <button class="btn ">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+    <!-- Read Our section end -->
+
+  </main>
+
+
+</body>
+
+</html>
